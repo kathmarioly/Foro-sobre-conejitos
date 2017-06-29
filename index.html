@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Foro Bunny</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no; initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	
+	<!--materialize CSS-->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-	<header class="container">	
+	<header class="container">
 		<div class="row">
 			<div class="col offset-s2 s8">
 				<h1>Foro sobre Conejitos</h1>
@@ -20,23 +21,27 @@
 				<form action="">
 					<label>Nombre: </label>
 					<input type="text" id="nombre">
-					<label>Mensaje: </label>
+					<label>Mensaje</label>
 					<textarea id="mensaje"></textarea>
 					<button>Enviar</button>
 				</form>
 			</div>
 		</div>
 	</header>
-	<section class="container">	<!-- Aquí se creara el espacio donde quedaran los comentarios del foro-->
+	<section class="container">
 		<div class="col offset-s3 s6">
 			<div id="comentarios">
+				
 			</div>
-		</div>	
+		</div>
 	</section>
-	<script type="text/javascript" src="https://code.jquery-2.1.1.min.js"></script>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-  <script src="assets/js/main.js"></script>
+	<!--JQUERY-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--MATERIALIZE-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>	
+
+
 </body>
 </html>
